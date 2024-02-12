@@ -6,9 +6,10 @@ jobs:
   artifact:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: "./public"
+          path: "./public/"
   deploy:
     needs: artifact
     permissions:
