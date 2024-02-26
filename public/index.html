@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <title>ITS DigiSign 3</title>
     <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="database/config.js"></script>
+    <script type="text/javascript" src="database/jr_toyohashi.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/timetable.js"></script>
+    <script type="text/javascript" src="js/timetableData.js"></script>
   </head>
   <body>
-    ITS DigiSign 3
+    <canvas id="canvas" width="1280" height="1200"></canvas>
+    <div class="main">
+      <div class="area-image">
+        <img src="" id="area_image" />
+      </div>
+      <div class="area-logo">
+        <img src="img/logo.png" />
+      </div>
+      <div class="area-clock">
+        <h2 id="area_clock_sub"></h2>
+        <h1 id="area_clock_main"></h1>
+      </div>
+      <div class="area-info">
+        <div id="area_info" class="area-info-contents">
+          <b id="area_info_title"></b>
+          <p id="area_info_contents"></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
