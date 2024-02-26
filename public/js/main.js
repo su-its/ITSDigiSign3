@@ -45,6 +45,9 @@ function main() {
   if (ct == 4) {
     ct = 0;
   }
+  if (now.getSeconds() <= 6 && (min == "00" || min == "30")) {
+    location.reload();
+  }
 }
 
 // 時刻を文字列に変換
