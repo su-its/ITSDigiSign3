@@ -24,6 +24,10 @@ const slideImage = [
     src: "manken.png",
   },
   {
+    type: "image_ad",
+    src: "SU-CRAFT.png"
+  },
+  {
     type: "image",
     src: "about.png",
   },
