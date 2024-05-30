@@ -52,4 +52,4 @@ const information = [
 バージョン（最終更新日）
 */
 
-const version = "20240226";
+const version = "20240529";
